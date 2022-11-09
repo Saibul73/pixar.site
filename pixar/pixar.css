@@ -1,0 +1,148 @@
+.container{
+    width: 100%;
+    height: 1600px;
+    background:#fff;
+}
+.head{
+    width: 100%;
+    height: 105px;
+    background: #fff;;
+}
+body{
+    margin: 0;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-size: 22px;
+}
+.logo{
+width: 30%;
+height: 105px;
+background:#fff;
+float: left;
+}
+.imglogo{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 130px;
+    top: 40px;
+    cursor: pointer;
+}
+.navi-bar{
+    width: 70%;
+    height: 105px;
+    background:#fff;
+    float: left;
+}
+nav{
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.navi-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.navi-bar ul li:hover{
+    color: gray;
+}
+.mid{
+    width: 100%;
+   min-height: 600px;
+   background-image: url(Light_header.jpg);
+
+}
+.midlog{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 425px;
+    left: 125px;
+}
+.foot{
+    width: 100%;
+    height: 270px;
+    background:#fff;
+    padding-top: 140px;
+}
+.first{
+    width: 340px;
+    height: 275px;
+    
+    position: absolute;
+    left: 137px;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+width: 100%;
+height: 80%;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.second{
+    width: 340px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 510px;
+}
+.third{
+    width: 340px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 880px;
+}
+.footlog{
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    justify-content: center;
+    
+}
+.innerfoot{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    left: 634px;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.footdata{
+    width: 100%;
+    height: 200px;
+background:#fff;
+text-align: center;
+}
+.para{
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(95, 87, 87);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.para:hover{
+    color: rgb(119, 110, 110);
+}
+.tag{
+    color: rgb(90, 81, 81);
+}
